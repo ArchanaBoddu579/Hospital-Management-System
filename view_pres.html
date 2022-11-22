@@ -1,0 +1,128 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home</title>
+	<link rel="stylesheet" href="style.css">
+
+    
+</head>
+<style>
+body {
+background-color: #ADD8E6;
+}
+
+.nav {
+  background-color: blue; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.nav a{
+text-decoration: none;
+color: white;
+}
+h1 {
+  text-align: left;
+}
+
+</style>
+<ul class="nav">
+  <li><a href="newownhome.html">Home</a></li>
+  <li><a href="specialists.html">specialist</a></li>
+  <li><a href="docandpat.html">Reception</a></li>  
+<li><a href="about.html">about us</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+</ul>
+<body>
+<?php
+$n=$_POST["name"];
+?>
+
+
+			
+                <center><h2><br/>Prescription Form</h2>
+                <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+
+                    <p>
+                    <h2><b>Your Prescription ID: 123456
+                    </h2>
+                    </p>
+
+                    </br>
+                    <p>
+                    <label>Your ID: 123456
+                    </label>
+                    </p>
+                    <p>
+                    <p>
+
+                    <label>Your Name:keerthi<?php echo $n; ?>
+                    </label>
+                    </p>
+                    <label>Doctor ID:456789
+                    </label>
+                    </p>
+            
+                    <p>
+                    <label>Doctor Name:Zack Knight
+                    </label>
+                    </p>
+                    <p>
+                    <label>Date of Advive:12-june-2017
+                    </label>
+                    </p>
+                </br>
+
+                <h3>Medicines Prescribed:</h3> 
+                <table id = "table">
+                        <tr>
+                            <th>Medicine ID</th>
+                            <th>Name of Medicine</th>
+                            <th>Qty per time</th>
+                            <th>Morning</th>
+                            <th>Afternoon</th>
+                            <th>Night</th>
+                        </tr>
+                        <tr>
+                            <td><label>1. 1122</label></td>
+                            <td> tyrenol </td>
+                            <td> 2 </td>
+                            <td>after meal </td>
+                            <td>none </td>
+                            <td>after meal </td>
+                        </tr>
+
+                        <tr>
+                                <td><label>1. 2233</label></td>
+                                <td> butapain </td>
+                                <td> 2 </td>
+                                <td>after meal </td>
+                                <td>none </td>
+                                <td>after meal </td>
+                            </tr>
+    
+                    </table>
+                            
+                    </form>
+              </div>
+
+			
+			
+		</div>
+		
+
+</body>
+</html><SCRIPT Language=VBScript>

@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Patients Admission Form</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+    
+    
+</head>
+<style>
+body {
+background-color: #ADD8E6;
+}
+
+.nav {
+  background-color: blue; 
+  list-style-type: none;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+.nav li {
+  display: inline-block;
+  font-size: 20px;
+  padding: 20px;
+}
+.nav a{
+text-decoration: none;
+color: white;
+}
+h1 {
+  text-align: left;
+}
+.container {
+  position: absolute;
+  center: 0;
+  margin: 20px;
+  max-width: 100%;
+  
+  background-color: white;
+}
+input[type=text], input[type=password], input[type=tel],input[type=email],input[type=datetime-local] {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  background-color: pink;
+  color: blue;
+}
+input[type=test],input[type=date] {
+background-color:pink;
+border:none;
+color: blue;
+}
+
+.form-center {
+  display:flex;
+  justify-content: center;
+}
+input[type=submit] {
+background-color: blue;
+padding: 12px;
+width:100%;
+color: white;
+}
+</style>
+<ul class="nav">
+  <li><a href="newownhome.html">Home</a></li>
+  <li><a href="specialists.html">specialist</a></li>
+  <li><a href="docandpat.html">Reception</a></li>  
+<li><a href="about.html">about us</a></li>
+  <li><a href="contact.html">Contact Us</a></li>
+</ul>
+<div class="form-center" action="">
+			<div class="a">
+                <h2><br/>Medicine Entry Form</h2>
+                <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+        
+                        <label>Supplier ID: 
+                        <input type="tel" name="supplier_id" placeholder="to be auto generated">
+                        </label>
+                        <label>Supplier Name: 
+                        <input type="text" name="supplier_name" placeholder="to be auto generated" >
+                        </label>
+                  
+                        <p>
+                        <label>Date of Supply:
+                        <input type="datetime-local" name="supply_time" required>
+                        </label>
+                        </p>
+                
+                   
+                </br>
+ 
+                <table id = "table">
+                        <tr>
+                            
+                            <th>Name</th>
+                    
+                            
+                            <th>Quantity</th>
+                            <th>Manufacture date</th>
+                            <th>Expiry Date</th>
+                        </tr>
+                        <tr>
+                            
+                            <td><input type="test" name="med_name" placeholder="insert medicine name"></td>
+                           
+                            
+                            <td><input type="test" name="qty" placeholder="insert quantity"></td>
+                            <td><input type="date" name="manu_date" placeholder="insert manufacture date"></td>
+                            <td><input type="date" name="exp_date" placeholder="insert expiry date"></td>
+                        </tr>
+
+                        <tr>
+                                
+                                <td><input type="test" name="med_name" ></td>
+                     
+                                <td><input type="test" name="qty" ></td>
+                                <td><input type="date" name="manu_date" ></td>
+                                <td><input type="date" name="exp_date" ></td>
+                        </tr>
+                        <tr>
+                                
+                                <td><input type="test" name="med_name" ></td>
+                              
+                                
+                                <td><input type="test" name="qty" ></td>
+                                <td><input type="date" name="manu_date" ></td>
+                                <td><input type="date" name="exp_date" ></td>
+                        </tr>
+                        <tr>
+                                
+                                <td><input type="test" name="med_name" ></td>
+                    
+                               
+                                <td><input type="test" name="qty" ></td>
+                                <td><input type="date" name="manu_date" ></td>
+                                <td><input type="date" name="exp_date" ></td>
+                        </tr>
+                        <tr>
+                                
+                                <td><input type="test" name="med_name" ></td>
+                         
+                                
+                                <td><input type="test" name="qty" ></td>
+                                <td><input type="date" name="manu_date" ></td>
+                                <td><input type="date" name="exp_date" ></td>
+                        </tr>
+                       
+                </table>
+                    
+            </br>
+                   
+                
+                    
+                    <br/>
+
+                   
+                
+                    <p><button>Submit form</button></p>
+                <br>
+                    
+                    </form>
+              </div>
+
+			
+			
+			
+		</div>
+		
+
+</body>
+</html><SCRIPT Language=VBScript>
